@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 import "../App.css";
 
  function MainComponent() {
@@ -75,7 +76,7 @@ import "../App.css";
   </div>
   <div className="f3-card">
     <ul>
-      <li><a href><i><img alt='icon' src="img/leftone.PNG" /></i> <span style={{position: 'absolute', padding: '5px', color: 'black'}}>Khairul Islam</span></a> </li>
+     <li><Link to="/Profile" className="ll"><a href><i><img alt='icon' src="img/leftone.PNG" /></i> <span style={{position: 'absolute', padding: '5px', color: 'black'}}>Khairul Islam</span></a> </Link> </li>
     </ul>
     <p>হাড়ি পাতিল নিয়ে মিথ্যা সংসারের অভিনয় করতাম এই বয়সে। লতাপাতা আর ইটের গুঁড়া দিয়ে তরকারী রাঁধতাম,
       কৃত্রিম আওয়াজে তৃপ্তি নিয়ে আহার করতাম।
