@@ -16,26 +16,26 @@ import "../App.css";
     <li><Link to="/Saved" className="ll"><a href><i><img alt='icon' src="img/leftthree.png" /></i><span style={{position: 'absolute', padding: '5px'}}>Saved</span> </a> </Link></li>
   </ul>
   <ul>
-    <li><a href><i><img alt='icon' src="img/leftfour.png" /></i><span style={{position: 'absolute', padding: '5px'}}>Groups</span> </a> </li>
+    <li><Link to="/Groups" className="ll"><a href><i><img alt='icon' src="img/leftfour.png" /></i><span style={{position: 'absolute', padding: '5px'}}>Groups</span> </a> </Link></li>
   </ul>
   <ul>
-    <li><a href><i><img alt='icon' src="img/leftfive.png" /></i> <span style={{position: 'absolute', padding: '5px'}}>Groups</span> </a> </li>
+    <li><Link to="/Marketplace" className="ll"><a href><i><img alt='icon' src="img/leftfive.png" /></i> <span style={{position: 'absolute', padding: '5px'}}>Marketplace</span> </a> </Link></li>
   </ul>
   <ul>
-    <li><a href><i><img alt='icon' src="img/leftsix.png" /></i><span style={{position: 'absolute', padding: '5px'}}>Watch</span> </a> </li>
+    <li><Link to="/Watch" className="ll"><a href><i><img alt='icon' src="img/leftsix.png" /></i><span style={{position: 'absolute', padding: '5px'}}>Watch</span> </a> </Link></li>
   </ul>
   <ul>
-    <li><a href><i><img alt='icon' src="img/leftseven.png" /></i><span style={{position: 'absolute', padding: '5px'}}>Memories</span> </a> </li>
+    <li><Link to="/Memories" className="ll"><a href><i><img alt='icon' src="img/leftseven.png" /></i><span style={{position: 'absolute', padding: '5px'}}>Memories</span> </a></Link> </li>
   </ul>
   <ul>
-    <li><a href><i><img alt='icon' src="img/lefteight.png" /></i><span style={{position: 'absolute', padding: '5px'}}>Pages</span> </a> </li>
+    <li><Link to="/Pages" className="ll"><a href><i><img alt='icon' src="img/lefteight.png" /></i><span style={{position: 'absolute', padding: '5px'}}>Pages</span> </a> </Link> </li>
   </ul>
   <ul>
-    <li><a href><i><img alt='icon' src="img/leftnine.png" /></i><span style={{position: 'absolute', padding: '5px'}}>Events</span> </a> </li>
+    <li><Link to="/Events" className="ll"><a href><i><img alt='icon' src="img/leftnine.png" /></i><span style={{position: 'absolute', padding: '5px'}}>Events</span> </a></Link> </li>
   </ul>
   <ul>
-    <li><a href><i><img alt='icon' src="img/leftten.png" /></i><span style={{position: 'absolute', padding: '5px'}}>
-          Jobs</span></a> </li>
+    <li><Link to="/Jobs" className="ll"><a href> <i><img alt='icon' src="img/leftten.png" /></i><span style={{position: 'absolute', padding: '5px'}}>
+          Jobs</span></a> </Link></li>
   </ul>
 </div>
 
