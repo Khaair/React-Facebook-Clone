@@ -3,7 +3,7 @@ import React from 'react';
 function Messenger() {
   return(
     <div>
-        <h1>Messenger page</h1>
+        <h1>Messenger</h1>
     </div>
   )
 }

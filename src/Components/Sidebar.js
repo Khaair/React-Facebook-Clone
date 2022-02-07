@@ -10,10 +10,10 @@ import "../App.css";
     <li> <Link to="/Profile" className="ll"> <a href><i><img alt='icon' src="img/leftone.PNG" /></i> <span style={{position: 'absolute', padding: '5px'}}>Khairul Islam</span></a> </Link></li>
   </ul>
   <ul>
-    <li><a href><i><img alt='icon' src="img/lefttwo.png" /></i> <span style={{position: 'absolute', padding: '5px'}}>Friends</span></a> </li>
+    <li><Link to="/Friends" className="ll"><a href><i><img alt='icon' src="img/lefttwo.png" /></i> <span style={{position: 'absolute', padding: '5px'}}>Friends</span></a> </Link></li>
   </ul>
   <ul>
-    <li><a href><i><img alt='icon' src="img/leftthree.png" /></i><span style={{position: 'absolute', padding: '5px'}}>Saved</span> </a> </li>
+    <li><Link to="/Saved" className="ll"><a href><i><img alt='icon' src="img/leftthree.png" /></i><span style={{position: 'absolute', padding: '5px'}}>Saved</span> </a> </Link></li>
   </ul>
   <ul>
     <li><a href><i><img alt='icon' src="img/leftfour.png" /></i><span style={{position: 'absolute', padding: '5px'}}>Groups</span> </a> </li>
