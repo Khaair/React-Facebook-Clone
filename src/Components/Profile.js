@@ -1,9 +1,23 @@
 import React from 'react';
+import "../App.css";
 
 function Profile() {
   return(
     <div>
-        <h1>Profile page</h1>
+     <div className="pcontainer">
+  <div className="pone">
+  
+  </div>
+  <div className="ptwo">
+    <img className="coverphoto" src="img/coverphoto.png" alt="Nature" />
+    <h1>Under construction</h1>
+   
+  </div>
+  <div className="pthree">
+   
+  </div>
+</div>
+
     </div>
   )
 }

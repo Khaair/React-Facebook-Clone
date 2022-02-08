@@ -307,3 +307,31 @@ input {
   margin-left: 8px;
   margin-top: 3px;
 }
+
+/* Profile Style Start */
+
+.pcontainer {
+  height: 600px;
+  display: grid;
+  grid-template-columns: repeat(14, 1fr);
+  grid-template-rows: 600px auto;
+}
+
+.pone {
+  background-color: #dce1de;
+  grid-column: 1/3;
+}
+
+.ptwo {
+  grid-column: 3/12;
+}
+
+.pthree {
+  background-color: #dce1de;
+  grid-column: 12/-1;
+}
+
+.coverphoto {
+  width: 100%;
+  height: 250px;
+}
