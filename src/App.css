@@ -118,13 +118,13 @@ input {
 .f1-card {
   background-color: white;
   height: 110px;
-  width: 502px;
+  width: 525px;
   border: 1px solid #d0d1d5;
   border-radius: 10px;
   margin: auto;
   margin-bottom: 10px;
   padding: 12px;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
 }
 
 .f1-card ul {
@@ -135,13 +135,13 @@ input {
 .f2-card {
   background-color: white;
   height: 50px;
-  width: 502px;
+  width: 525px;
   border: 1px solid #d0d1d5;
   border-radius: 10px;
   margin: auto;
   margin-bottom: 10px;
   padding: 12px;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
 }
 
 .f2-card ul {
@@ -152,13 +152,13 @@ input {
 .f3-card {
   background-color: white;
   height: 600px;
-  width: 502px;
+  width: 525px;
   border: 1px solid #d0d1d5;
   border-radius: 10px;
   margin: auto;
   margin-bottom: 10px;
   padding: 12px;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
 }
 
 .f3-card ul {
@@ -178,7 +178,7 @@ input {
   margin-top: 10px;
   padding: 12px;
   padding-left: 2px;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
   display: grid;
   justify-content: left;
 }

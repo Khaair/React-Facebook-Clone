@@ -109,7 +109,7 @@ function Profile() {
           <ul>
             <li>
               <a href><i><img src="img/card2icon1.PNG" /></i><span style={{position: 'absolute', padding: '3px', color: '#3e506b'}}>
-                  Live video
+                  Live vide
                 </span></a>
             </li>
           </ul>
