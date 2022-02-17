@@ -28,7 +28,7 @@ import "../App.css";
   </div>
   <div className="f1-card">
     <ul>
-      <li><a href><i><img alt='icon' src="img/leftone.png" /></i><span style={{position: 'absolute', padding: '5px'}}>
+      <li><a href><i><img alt='icon' src="img/leftone.PNG" /></i><span style={{position: 'absolute', padding: '5px'}}>
           </span></a> </li>
       <li>
         <input className="input-post-section" style={{padding: '18px 1px 1px 5px'}} type="text" name placeholder="Whats on your mind,শেখ?" />
