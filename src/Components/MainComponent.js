@@ -4,7 +4,7 @@ import "../App.css";
 import CardStatus from './CardStatus';
 import "./MainComponents.css"
 
-export default function MainComponent({ fatch4, commentfetch2, data2, commentdata4, Delete5 }) {
+export default function MainComponent({ update5,fatch4, commentfetch2, data2, commentdata4, Delete5 }) {
 
   const [like, setLike] = useState('');
   const [show, setShow] = useState("false")
@@ -152,6 +152,9 @@ export default function MainComponent({ fatch4, commentfetch2, data2, commentdat
                   <li><p className='statuss'> {el.name}</p></li>
                 </ul>
 
+                <Link to={`/edit/${ind}`}><button className="btn btn-success mright">Edit</button></Link>
+
+
                 {/* <button onClick={() => Delete5(ind)}>Delete</button> */}
 
                 {show == "true"
@@ -223,7 +226,6 @@ export default function MainComponent({ fatch4, commentfetch2, data2, commentdat
 
 
 
-                              {/* <td><Link to={`/edit/${ind}`}><button className="btn btn-success mright">Edit</button></Link><button onClick={() => DeleteFn(ind)} className="btn btn-danger" >Delete</button></td> */}
 
                             </tr>
                           </div>

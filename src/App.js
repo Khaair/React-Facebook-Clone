@@ -2,6 +2,7 @@ import React,{useState} from "react";
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
 import Account from "./Components/Account";
+import EditStatus from "./Components/EditStatus";
 import Events from "./Components/Events";
 import Friends from "./Components/Friends";
 import Gaming from "./Components/Gaming";
@@ -34,6 +35,13 @@ function App() {
     setCommentdata([...commentdata,values]);
     }
 
+    const UpdateData=(upDatas)=>{
+      console.log(upDatas,'up data peyechi');
+      let restData=data2.filter((eld,indd)=> indd!=upDatas.id);
+      console.log(restData,'reeeee')
+      setData2([...restData,{name:upDatas.name}]);
+   }
+
  
   const Delete=(id)=>{
     
@@ -52,7 +60,7 @@ function App() {
       <Navbar/>
 
       <Routes>
-        <Route path="/" element={<Homepage datas={data2}  commentdatas={commentdata} DeleteFn={Delete} fetch3={FetchData2} commentfetch={CommentFetchData} />} />
+        <Route path="/" element={<Homepage update4={UpdateData} datas={data2}  commentdatas={commentdata} DeleteFn={Delete} fetch3={FetchData2} commentfetch={CommentFetchData} />} />
         <Route path="/watch" element={<Watch />} />
         <Route path="/Marketplace" element={<Marketplace />} />
         <Route path="/Groups" element={<Groups />} />
@@ -68,6 +76,8 @@ function App() {
         <Route path="/Pages" element={<Pages />} /> 
         <Route path="/Events" element={<Events />} />
         <Route path="/Jobs" element={<Jobs />} />
+        <Route path="/edit/:id" element={<EditStatus update4={UpdateData} datas={data2}  fetch3={FetchData2}/>} />
+
         
       </Routes>
     </div>
