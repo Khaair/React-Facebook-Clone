@@ -151,14 +151,15 @@ input {
 
 .f3-card {
   background-color: white;
-  height: 200px;
-  width: 525px;
+  height: auto;
+  width: auto;
   border: 1px solid #d0d1d5;
   border-radius: 10px;
   margin: auto;
   margin-bottom: 10px;
   padding: 12px;
   box-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
+ 
 }
 
 .f3-card ul {

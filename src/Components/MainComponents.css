@@ -1,0 +1,34 @@
+.fbstatus{
+
+   margin-top: 50px;
+}
+
+.likecmnt{
+display: flex;
+
+
+
+}
+.likehover:hover{
+    background-color: #E4E6E9;
+    cursor: pointer;
+   
+}
+
+
+
+
+
+.commentt{
+    padding-left: 38px;
+}
+
+.status1{
+    display: flex;
+}
+.status1btn{
+    padding-left: 430px;
+}
+
+
+
