@@ -11,6 +11,50 @@
     
     
   }
+
+  .editcardd {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    
+    
+    text-align: center;
+    font-family: arial;
+    margin-left: 540px;
+    margin-top: 100px;
+    width: 350px;
+    height: 300px;
+   /* border: 2px solid red; */
+
+    
+    
+  }
+
+  .editstatus1{
+    margin: 40px;
+    text-align: center;
+  }
+
+  .editstatus1label{
+   padding-left: 36px;
+   padding-top: 20px;
+  }
+
+  
+
+  .editstatus1input{
+    border: 2px solid black;
+    height: 40px;
+    border-radius: 4px;
+    margin-top: 5px;
+    padding-left: 65px;
+    
+
+  }
+
+  .editstatus1btn{
+    border: solid 2px black;
+    height: 50px;
+    width: 150px;
+  }
   
   .price {
     color: grey;

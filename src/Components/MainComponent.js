@@ -2,12 +2,15 @@ import React, { Component, useState } from 'react';
 import { Link } from "react-router-dom";
 import "../App.css";
 import CardStatus from './CardStatus';
+import EditStatus from './EditStatus';
 import "./MainComponents.css"
 
-export default function MainComponent({ update5,fatch4, commentfetch2, data2, commentdata4, Delete5 }) {
+export default function MainComponent({ update5, fatch4, commentfetch2, data2, commentdata4, Delete5 }) {
 
   const [like, setLike] = useState('');
   const [show, setShow] = useState("false")
+  const [editshow, setEditshow] = useState("false")
+
 
   const [textColor, setTextColor] = useState('black');
   const [name, setName] = useState("");
@@ -50,7 +53,14 @@ export default function MainComponent({ update5,fatch4, commentfetch2, data2, co
 
   const showhandle = () => {
 
-    show == "false"? setShow("true") : setShow("false")
+    show == "false" ? setShow("true") : setShow("false")
+
+
+  }
+
+  const Editshowhandle = () => {
+
+    editshow == "false" ? setEditshow("true") : setEditshow("false")
 
 
   }
@@ -89,7 +99,7 @@ export default function MainComponent({ update5,fatch4, commentfetch2, data2, co
 
               <input onChange={handleNameChange} value={name} name="firstname" className="input-post-section" style={{ padding: '18px 1px 1px 5px', marginBottom: "5px" }} type="text" placeholder="Whats on your mind,শেখ?" />
 
-              <button  onClick={()=>setShow("false")} type="submit" className="postbtn">Post</button>
+              <button onClick={() => setShow("false")} type="submit" className="postbtn">Post</button>
             </form>
           </ul>
           <ul>
@@ -152,7 +162,6 @@ export default function MainComponent({ update5,fatch4, commentfetch2, data2, co
                   <li><p className='statuss'> {el.name}</p></li>
                 </ul>
 
-                <Link to={`/edit/${ind}`}><button className="btn btn-success mright">Edit</button></Link>
 
 
                 {/* <button onClick={() => Delete5(ind)}>Delete</button> */}
@@ -162,9 +171,9 @@ export default function MainComponent({ update5,fatch4, commentfetch2, data2, co
                   (
                     <div>
                       <div className="card cardd">
-                        <div className="card-body">
+                        <div className="card-body">   
                           <div >
-                            <button className='card-button2'>Edit</button>
+                            <Link to={`/edit/${ind}`}><button onClick={Editshowhandle} className='card-button2'>Edit</button></Link>
                             <button className='card-button2' onClick={() => Delete5(ind)}>Delete</button>
                           </div>
 
@@ -180,6 +189,8 @@ export default function MainComponent({ update5,fatch4, commentfetch2, data2, co
                     <p></p>
                   )}
 
+
+                    {editshow == "true"  && <EditStatus/>}
 
 
 

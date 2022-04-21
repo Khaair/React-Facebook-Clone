@@ -76,7 +76,7 @@ function App() {
         <Route path="/Pages" element={<Pages />} /> 
         <Route path="/Events" element={<Events />} />
         <Route path="/Jobs" element={<Jobs />} />
-        <Route path="/edit/:id" element={<EditStatus update4={UpdateData} datas={data2}  fetch3={FetchData2}/>} />
+        <Route path="/edit/:id" element={<EditStatus UpdateData={UpdateData} datas={data2}  fetch3={FetchData2}/>} />
 
         
       </Routes>
