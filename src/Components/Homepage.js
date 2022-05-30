@@ -4,7 +4,7 @@ import MainComponent from './MainComponent';
 import RightSideBar from './RightSideBar';
 import Sidebar from './Sidebar';
 
- function Homepage({fetch3,commentfetch,datas,commentdatas,DeleteFn}) {
+ function Homepage({update4,fetch3,commentfetch,datas,commentdatas,DeleteFn}) {
 
   return (
     <div>
@@ -15,7 +15,7 @@ import Sidebar from './Sidebar';
       <Sidebar/>
       </div>
       <div className="three">
-      <MainComponent fatch4= {fetch3} commentfetch2 = {commentfetch} data2 = {datas} commentdata4={commentdatas} Delete5={DeleteFn} />
+      <MainComponent update5={update4} fatch4= {fetch3} commentfetch2 = {commentfetch} data2 = {datas} commentdata4={commentdatas} Delete5={DeleteFn} />
       </div>
 
       <div class="four">

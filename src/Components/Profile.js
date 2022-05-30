@@ -23,6 +23,13 @@ function Profile({ datas, commentdatas, fetch3, DeleteFn, commentfetch }) {
     textColor == 'black' ? setTextColor('blue') : setTextColor('black')
   }
 
+  
+
+
+
+
+
+
   const CommentSave = (e) => {
     e.preventDefault();
     commentfetch({ comment });
@@ -36,7 +43,10 @@ function Profile({ datas, commentdatas, fetch3, DeleteFn, commentfetch }) {
         <div className="pone" />
         <div className="ptwo">
           <div className="coverphoto">
-            <button>Edit Cover Photo</button>
+          <img style={{height:"400px",width:"100%"}} src="img/coverphoto.jpg" alt="Nature" />
+
+            
+         
           </div>
           <div className="profilepicdiv">
             <div>
@@ -225,7 +235,7 @@ function Profile({ datas, commentdatas, fetch3, DeleteFn, commentfetch }) {
         </div>
         <div className="pthree" >
 
-        <h1>hiiiiiii</h1>
+        
 
         </div>
 

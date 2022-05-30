@@ -1,7 +1,8 @@
 import React,{useState} from "react";
-import { Route, Routes } from "react-router-dom";
+import { Route, Routes} from "react-router-dom";
 import "./App.css";
 import Account from "./Components/Account";
+import Adddata from "./Components/Adddata";
 import EditStatus from "./Components/EditStatus";
 import Events from "./Components/Events";
 import Friends from "./Components/Friends";
@@ -20,6 +21,9 @@ import Pages from "./Components/Pages";
 import Profile from "./Components/Profile";
 import Saved from "./Components/Saved";
 import Watch from "./Components/Watch";
+
+
+
 
 function App() {
 
@@ -60,6 +64,7 @@ function App() {
       <Navbar/>
 
       <Routes>
+
         <Route path="/" element={<Homepage update4={UpdateData} datas={data2}  commentdatas={commentdata} DeleteFn={Delete} fetch3={FetchData2} commentfetch={CommentFetchData} />} />
         <Route path="/watch" element={<Watch />} />
         <Route path="/Marketplace" element={<Marketplace />} />
@@ -78,8 +83,10 @@ function App() {
         <Route path="/Jobs" element={<Jobs />} />
         <Route path="/edit/:id" element={<EditStatus UpdateData={UpdateData} datas={data2}  fetch3={FetchData2}/>} />
 
-        
+
       </Routes>
+
+      
     </div>
   );
 }
